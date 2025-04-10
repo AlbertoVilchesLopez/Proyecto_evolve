@@ -7,6 +7,22 @@ https://www.canva.com/design/DAFyF6kBUXE/w10cTbYW8N0NeiWTxkI5ow/edit?utm_content
 El objetivo de este proyecto es depurar y formatear un conjunto de datos que contiene información sobre la población española y la dependencia en ella.
 Posteriormente, analizar los datos para generar visualizaciones que confirmen o refuten hipótesis.
 
+
+## Estructura del Proyecto
+
+```
+├── data/               # Archivos de datos sin procesar y procesados
+│   ├── raw/
+│   └── processed/
+├── images/             # Imágenes de análisis
+├── dashboards/         # Archivos de Tableau
+├── src/                # Script Python (ETL y Visualiación)
+│   └── Estudio.ipynb
+├── requirements.txt    # Dependencias del proyecto
+└── README.md
+```
+
+
 # LIBRARIES USED
 
 - Pandas
