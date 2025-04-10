@@ -34,7 +34,7 @@ Posteriormente, analizar los datos para generar visualizaciones que confirmen o 
 
 **1. Existe un envejecimiento en la población Española?**
 
-![scatterplot]([https://github.com/emmacunill/project_em/blob/main/images/scatter_attacks_years.jpg?raw=true](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_espa%C3%B1ola_desde_1970.jpeg))
+![scatterplot](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_espa%C3%B1ola_desde_1970.jpeg)
 
 As we can see in this plot, the shark attacks have increased in the last century. We can atribute that to different hypothesis. 
 1. is that we have more resources to navigate
