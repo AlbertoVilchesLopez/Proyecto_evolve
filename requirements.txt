@@ -1,1 +1,5 @@
-
+Pandas
+Seaborn
+Matplotlib.pyplot
+statsmodels.tsa.seasonal
+statsmodels.tsa.holtwinters
