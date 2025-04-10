@@ -32,9 +32,9 @@ Posteriormente, analizar los datos para generar visualizaciones que confirmen o 
 
 # DEVELOPEMENT
 
-**1. Are sharks getting tired of attacking, or are humans getting more annoying?**
+**1. Existe un envejecimiento en la población Española?**
 
-![scatterplot](https://github.com/emmacunill/project_em/blob/main/images/scatter_attacks_years.jpg?raw=true)
+![scatterplot]([https://github.com/emmacunill/project_em/blob/main/images/scatter_attacks_years.jpg?raw=true](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_espa%C3%B1ola_desde_1970.jpeg))
 
 As we can see in this plot, the shark attacks have increased in the last century. We can atribute that to different hypothesis. 
 1. is that we have more resources to navigate
@@ -55,7 +55,7 @@ Let's understand why the sharks are not only not getting, tired, but getting fie
 
 
 
-**2. If they're not getting tired, why is that?**
+**2. Cuál es el nivel de dependencia en España?**
 
 Shall we take a look at the activities people were doing when the attackes occurred?
 
@@ -79,7 +79,7 @@ But is it all humans or just a fraction?
 
 
 
-**3.Are men more attaked than women or the contrary?**
+**3. Sería necesario buscar una solución minimizar los problemas de la dependencia en España?**
 
 Let's prove the obvious answer, that we're not going to say."
 
