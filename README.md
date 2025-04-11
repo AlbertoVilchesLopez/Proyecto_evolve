@@ -57,17 +57,6 @@ La pirámide poblacional de 2024 revela un descenso significativo de la poblaci�
 
 
 
-![image](https://github.com/emmacunill/project_em/blob/main/images/hist_attacks_years.png?raw=true)
-
-In this graphic we see only the number of attacks from the 1800 to the actual moment.
-
-To be able to give response on which of our 4 hypothesis is true, we still need to analize deeper.
-
-Let's understand why the sharks are not only not getting, tired, but getting fiercer.
-
-
-
-
 **2. Cuál es el nivel de dependencia en España?**
 
 Para que una persona se considere en situación de dependencia, deben concurrir tres condiciones fundamentales:
