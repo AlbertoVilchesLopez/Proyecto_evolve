@@ -61,13 +61,13 @@ La pirámide poblacional de 2024 revela un descenso significativo de la poblaci�
 
 Para que una persona se considere en situación de dependencia, deben concurrir tres condiciones fundamentales:
 
-     1. La presencia de una limitación, ya sea física, intelectual o sensorial, que afecte significativamente sus capacidades funcionales.
-     2. La imposibilidad de realizar de forma autónoma las actividades básicas de la vida diaria.
-     3. La necesidad de apoyo o asistencia por parte de una tercera persona para llevar a cabo dichas actividades.
+ 1. La presencia de una limitación, ya sea física, intelectual o sensorial, que afecte significativamente sus capacidades funcionales.
+ 2. La imposibilidad de realizar de forma autónoma las actividades básicas de la vida diaria.
+ 3. La necesidad de apoyo o asistencia por parte de una tercera persona para llevar a cabo dichas actividades.
 
      Procedemos a ver el porcentaje de población en estado de dependencia por comunidades autónomas: 
 
-![image]((https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Mapa_Espa%C3%B1a_ccaa.jpeg))
+![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Mapa_Espa%C3%B1a_ccaa.jpeg)
 ![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Dependencia_por_ccaa.jpeg)
 
 Podemos observar una cantidad preocupante de personas en situación de dependencia en España, desde el 31,55% de la población en 
