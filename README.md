@@ -1,8 +1,7 @@
 # Proyecto_evolve
 Proyecto sobre la dependencia en la población Española
-# OVERVIEW
 
-https://www.canva.com/design/DAFyF6kBUXE/w10cTbYW8N0NeiWTxkI5ow/edit?utm_content=DAFyF6kBUXE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+# OVERVIEW
 
 El objetivo de este proyecto es depurar y formatear un conjunto de datos que contiene información sobre la población española y la dependencia en ella.
 Posteriormente, analizar los datos para generar visualizaciones que confirmen o refuten hipótesis.
@@ -15,9 +14,9 @@ Posteriormente, analizar los datos para generar visualizaciones que confirmen o 
 │   ├── raw/
 │   └── processed/
 ├── images/             # Imágenes de análisis
-├── dashboards/         # Archivos de Tableau
-├── src/                # Script Python (ETL y Visualiación)
-│   └── Estudio.ipynb
+├── src/                # Archivo de Tableau
+│   └── Proyecto_Alberto_Vlches.twb
+├── Estudio.ipynb       # Archivo Python
 ├── requirements.txt    # Dependencias del proyecto
 └── README.md
 ```
@@ -51,14 +50,12 @@ Posteriormente, analizar los datos para generar visualizaciones que confirmen o 
 **1. Existe un envejecimiento en la población Española?**
 
 ![scatterplot](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_espa%C3%B1ola_desde_1970.jpeg)
+![scatterplot](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Distribuci%C3%B3n_por_edades.jpeg)
 
-As we can see in this plot, the shark attacks have increased in the last century. We can atribute that to different hypothesis. 
-1. is that we have more resources to navigate
-2. change of weather , although we don't have the data to demonstrate that
-3. change on the human life conditions
-4. maybe also change in the sense of peril
+El crecimiento de la población española en más de 10 millones desde 1970 enmascara una realidad demográfica preocupante. 
+La pirámide poblacional de 2024 revela un descenso significativo de la población joven y adulta (entre los 15 y 47 años) respecto a población anciana. 
 
-Let's see the data in another graphic so that we can analize it deeper.
+
 
 ![image](https://github.com/emmacunill/project_em/blob/main/images/hist_attacks_years.png?raw=true)
 
@@ -73,67 +70,68 @@ Let's understand why the sharks are not only not getting, tired, but getting fie
 
 **2. Cuál es el nivel de dependencia en España?**
 
-Shall we take a look at the activities people were doing when the attackes occurred?
+Para que una persona se considere en situación de dependencia, deben concurrir tres condiciones fundamentales:
 
-The answer is obviously, YES, WE SHALL!! 
+     1. La presencia de una limitación, ya sea física, intelectual o sensorial, que afecte significativamente sus capacidades funcionales.
+     2. La imposibilidad de realizar de forma autónoma las actividades básicas de la vida diaria.
+     3. La necesidad de apoyo o asistencia por parte de una tercera persona para llevar a cabo dichas actividades.
 
-![image](https://github.com/emmacunill/project_em/blob/main/images/activities.png?raw=true)
+     Procedemos a ver el porcentaje de población en estado de dependencia por comunidades autónomas: 
 
-From the data we get from the graphic, we can assume that the great mass of the attacks come from lifestyle. 
+![image]((https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Mapa_Espa%C3%B1a_ccaa.jpeg))
+![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Dependencia_por_ccaa.jpeg)
 
-Let's get more specific and see only data on the activities from the last 50 years.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/activities_years.png?raw=true)
-
-In perspective, we can see a decrease on the maybe considered more "survival" colum, fishing. And an increase of the "surf" column. But what also caught my attention is the shark interacting accidents has neither decreases or increases, so I want to check if that is because they are mostly concentrated recently or they're equally divided throughout the years.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/shark_int_years.jpg?raw=true)
-
-We can see that most of the shark interacting attacks are on increase in recent years. So maybe the hypothesis that the sense of peril has changed might also be true. Also meaning that humans are getting more annoying. 
-
-But is it all humans or just a fraction?
+Podemos observar una cantidad preocupante de personas en situación de dependencia en España, desde el 31,55% de la población en 
+Castilla y León hasta el 15,37% en Melilla.
+Hablamos de entre un 23 y 26% de la población española que se encuentra en situación de dependencia.
 
 
 
 **3. Sería necesario buscar una solución minimizar los problemas de la dependencia en España?**
 
-Let's prove the obvious answer, that we're not going to say."
+Mediante la técnica de predicción Holt-Winters, se ha estimado la evolución de la población española para el año 2030.
 
-First let's check how the attacks over the years get distributed against the gender of the victims. 
+Los resultados muestran una concentración significativa de población en el rango de edad comprendido entre los 40 y los 74 años, lo que evidencia un claro proceso de envejecimiento demográfico.
 
-Is it always more or less the same pattern or is it diverse?
+![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Predicci%C3%B3n_de_la_poblaci%C3%B3n.jpeg)
 
-![image](https://github.com/emmacunill/project_em/blob/main/images/years_sex.jpg?raw=true)
+A continuación, se presenta una proyección de la densidad de población en España para el año 2030, elaborada a partir de los datos de la Revisión de 2024 de las Perspectivas de la Población Mundial, publicada por el Departamento de Asuntos Económicos y Sociales de las Naciones Unidas. Esta estimación permite visualizar la evolución esperada de la distribución demográfica y anticipar posibles retos asociados al envejecimiento y la concentración poblacional en determinadas franjas de edad.
 
-As we can see from the plot, men have always been the winners of getting attacked by sharks.
+![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_en_2030.jpeg)
 
-Now let's also check if we can extract more information from the age and the gender. 
-
-Is it just a fase, or are they like that?
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/sex_age.png?raw=true)
-
-We can see from this box plot that between men and women, women number of attacks tend to be more stable along the age, the min and the max are more distant and the 50% of the data is also wider, meaning the data is more stable. Whilst men tend to be attacked by sharks on a more concentrated range of age.
-
-Maybe that has something to do with the activities that men and women are doing when the attacked happens.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/sex_activities.png?raw=true)
-
-The men normally do more adrenaline activities, so maybe they also have the peril sense lower and provoke more atacks? Let's see how many of the attacks where provoked between man and women.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/provoked_sex.jpg?raw=true)
-
-We see that most of the provoked attacks are by men. Let's also check shark interacting, because os sense of peril, to compare men and women participation, to end our hypothesis.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/sh_int_sex.jpg?raw=true)
-
-At least 75% of the shark interactinc¡g attacks are by men. Let's see how many of them are provoked.
-
-![image](https://github.com/emmacunill/project_em/blob/main/images/type_sex.png?raw=true)
 
 
 
 # CONCLUSIONS
 
-Seing that a great number of attacks are provoked, and all the other data we analized: We can definitely say that sharks are not getting tired, they're just getting angrier as we humans change our lifestyle, and become more annoying, by getting more stupid, mostly men.
+España está experimentando un claro proceso de envejecimiento poblacional. La baja natalidad y la alta longevidad generan una estructura piramidal invertida.
+
+En 2030, la proporción de personas en edad de trabajar (aproximadamente 20–64 años) disminuirá en comparación con la población dependiente. Esto implica un aumento de la tasa de dependencia (número de personas dependientes por cada 100 en edad laboral), lo cual representa un reto para el sistema de pensiones, la sanidad pública y la economía en general.
+
+Será necesario reforzar políticas de natalidad, conciliación familiar, inmigración y envejecimiento activo para mitigar el impacto.
+
+Por otra parte, la inteligencia artificial, bien aplicada, puede transformar este reto demográfico en una oportunidad para redefinir el envejecimiento.
+
+
+1. Asistentes virtuales y robótica para el cuidado
+
+Robots sociales y asistentes de IA pueden acompañar a personas mayores, recordándoles tomar medicación, ayudando en tareas cotidianas o incluso detectando caídas o situaciones de emergencia.
+
+Esto permite un envejecimiento más autónomo en el hogar, reduciendo la necesidad de residencias o cuidadores a tiempo completo.
+
+2. Diagnóstico predictivo y salud personalizada
+
+Herramientas de machine learning pueden predecir enfermedades crónicas antes de que se manifiesten, facilitando intervenciones tempranas.
+
+Modelos de IA también ayudan a personalizar tratamientos según los perfiles genéticos, metabólicos y clínicos del paciente.
+
+3. Gestión inteligente de recursos sanitarios
+
+Plataformas de IA pueden optimizar la asignación de citas, camas hospitalarias, rutas de ambulancias y distribución de medicamentos, reduciendo la presión sobre el sistema de salud.
+
+Sistemas predictivos pueden anticipar brotes de enfermedades o necesidades de atención geriátrica en zonas concretas.
+
+
+
+
 
