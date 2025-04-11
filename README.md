@@ -45,19 +45,28 @@ Posteriormente, analizar los datos para generar visualizaciones que confirmen o 
 4. Creación de elementos visuales para comprobar o refutar la hipótesis.
 5. Explicación de los fundamentos y conclusiones.
 
-# DEVELOPEMENT
+# DEVELOPMENT
 
 **1. Existe un envejecimiento en la población Española?**
 
+
 ![scatterplot](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_espa%C3%B1ola_desde_1970.jpeg)
 ![scatterplot](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Distribuci%C3%B3n_por_edades.jpeg)
+
+
 
 El crecimiento de la población española en más de 10 millones desde 1970 enmascara una realidad demográfica preocupante. 
 La pirámide poblacional de 2024 revela un descenso significativo de la población joven y adulta (entre los 15 y 47 años) respecto a población anciana. 
 
 
 
+
+
+
+
+
 **2. Cuál es el nivel de dependencia en España?**
+
 
 Para que una persona se considere en situación de dependencia, deben concurrir tres condiciones fundamentales:
 
@@ -65,10 +74,12 @@ Para que una persona se considere en situación de dependencia, deben concurrir 
  2. La imposibilidad de realizar de forma autónoma las actividades básicas de la vida diaria.
  3. La necesidad de apoyo o asistencia por parte de una tercera persona para llevar a cabo dichas actividades.
 
-     Procedemos a ver el porcentaje de población en estado de dependencia por comunidades autónomas: 
+Procedemos a ver el porcentaje de población en estado de dependencia por comunidades autónomas: 
 
 ![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Mapa_Espa%C3%B1a_ccaa.jpeg)
 ![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Dependencia_por_ccaa.jpeg)
+
+
 
 Podemos observar una cantidad preocupante de personas en situación de dependencia en España, desde el 31,55% de la población en 
 Castilla y León hasta el 15,37% en Melilla.
@@ -76,15 +87,22 @@ Hablamos de entre un 23 y 26% de la población española que se encuentra en sit
 
 
 
+
+
+
+
 **3. Sería necesario buscar una solución minimizar los problemas de la dependencia en España?**
+
 
 Mediante la técnica de predicción Holt-Winters, se ha estimado la evolución de la población española para el año 2030.
 
 Los resultados muestran una concentración significativa de población en el rango de edad comprendido entre los 40 y los 74 años, lo que evidencia un claro proceso de envejecimiento demográfico.
 
+
 ![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Predicci%C3%B3n_de_la_poblaci%C3%B3n.jpeg)
 
 A continuación, se presenta una proyección de la densidad de población en España para el año 2030, elaborada a partir de los datos de la Revisión de 2024 de las Perspectivas de la Población Mundial, publicada por el Departamento de Asuntos Económicos y Sociales de las Naciones Unidas. Esta estimación permite visualizar la evolución esperada de la distribución demográfica y anticipar posibles retos asociados al envejecimiento y la concentración poblacional en determinadas franjas de edad.
+
 
 ![image](https://github.com/AlbertoVilchesLopez/Proyecto_evolve/blob/main/images/Poblaci%C3%B3n_en_2030.jpeg)
 
